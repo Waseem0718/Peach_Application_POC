@@ -1,0 +1,75 @@
+﻿@{
+    var alert = "/asset/alert.png";
+    var search_icon = "/asset/search-icon.svg";
+
+}
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Project-Tesco Redundancy Calculator</title>
+    <link rel="stylesheet" href="~/sub_css/Leaver.css" />
+    <script src="~/js/Incorrect.js"></script>
+</head>
+<body>
+    <div class="colleague-main">
+        <h1>Agreed Early Leaver/Mover</h1>
+        <hr />
+
+        <div class="note-container">
+            <div class="logo1">
+                <img src=@alert alt="Menu">
+                <span>Note</span>
+
+            </div>
+            <div class="note">
+                <span>
+                    Only colleagues in projects where it has been agreed in collective consultation that they can leave/move role early or there has been an exception should be submitted.
+                    (Early movers are requiring buyout or pay protections set up early)
+                </span>
+
+            </div>
+        </div>
+        <div class="colleague-container">
+            <div class="sub-container1">
+                <label>Project Name</label>
+                <select id="search-project">
+                    <option>  </option>
+                </select>
+                <label>Search by Employee Number</label>
+                <input type="text" placeholder="*******" />
+                <a href=""><img src=@search_icon alt="" width="25px" height="30px" /><span>Search</span></a>
+                <label>Early Leaver or mover</label>
+                <select id="search-project">
+                    <option> Please select </option>
+                    <option> Leaver </option>
+                    <option> Buyout </option>
+                    <option> Pay Protection </option>
+                </select>
+                <label>Date From:</label>
+                <input type="date" class="date-input">
+
+            </div>
+            <div class="sub-container2">
+                <label>First Name</label>
+                <input type="text" />
+            </div>
+            <div class="sub-container3">
+                <label>Last Name</label>
+                <input type="text" />
+            </div>
+        </div>
+        <div class="enter-reason">
+            <label>Any other information?</label>
+            <textarea type="text"></textarea>
+        </div>
+
+        <hr />
+    </div>
+
+    <div class="clear-send">
+        <a href="" id="clear"><span>Clear</span></a>
+        <a href=""><span>Send</span></a>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,80 @@
+﻿@{
+    var alert = "/asset/alert.png";
+    var search_icon = "/asset/search-icon.svg";
+
+}
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Project-Tesco Redundancy Calculator</title>
+    <link rel="stylesheet" href="~/sub_css/Payhours.css" />
+    <script src="~/js/Incorrect.js"></script>
+</head>
+<body>
+    <div class="colleague-main">
+        <h1>Incorrect DateIncorrect Contractual Pay/Hours</h1>
+        <hr />
+
+        <div class="note-container">
+            <div class="logo1">
+                <img src=@alert alt="Menu">
+                <span>Note</span>
+
+            </div>
+            <div class="note">
+                <span>
+                    You are unable to submit this change, until it has flowed through a pay day on relevant HR system (or is visible on the PUR) we are unable to amend the database data until this has happened.
+                </span>
+
+            </div>
+        </div>
+        <div class="colleague-container">
+            <div class="sub-container1">
+                <label>Project Name</label>
+                <select id="search-project">
+                    <option>  </option>
+                </select>
+                <label>Search by Employee Number</label>
+                <input type="text" placeholder="*******" />
+                <a href=""><img src=@search_icon alt="" width="25px" height="30px" /><span>Search</span></a>
+                <label id="yesorno">Has the change flowed through a Pay<br />Day on relevant HR system (or visible<br /> on PUR Report)?</label>
+                <div class="toggle-buttons">
+                    <button id="yesBtn" class="btn active" onclick="toggleButton('yes')">Yes</button>
+                    <button id="noBtn" class="btn" onclick="toggleButton('no')">No</button>
+                </div>
+            </div>
+            <div class="sub-container2">
+                <label>First Name</label>
+                <input type="text" />
+                <label id="yesorno1">Are contractual hours correct?</label>
+                <div class="toggle-buttons">
+                    <button id="yesBtn" class="btn active" onclick="toggleButton('yes')">Yes</button>
+                    <button id="noBtn" class="btn" onclick="toggleButton('no')">No</button>
+                </div>
+                <label id="data-correction">Select pay elements that are incorrect</label>
+                <select id="select-data">
+                    <option> Please Select </option>
+                    <option> Contractual pay</option>
+                    <option> Annual pay</option>
+                    <option> Grade</option>
+                    <option> MArket Supplement</option>
+                    <option> Location pay</option>
+                </select>
+                
+
+            </div>
+            <div class="sub-container3">
+                <label>Last Name</label>
+                <input type="text" />
+            </div>
+        </div>
+        <hr />
+    </div>
+
+    <div class="clear-send">
+        <a href="" id="clear"><span>Clear</span></a>
+        <a href=""><span>Send</span></a>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,120 @@
+﻿@using Peach_Clone.Models;
+@{
+    ViewData["Title"] = "Find Employee";
+    var employee = ViewBag.Employee; // Define it at the top to ensure it's available throughout the file
+}
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Project-Tesco Redundancy Calculator</title>
+    <link rel="stylesheet" href="~/Employee_css/EmployeeDetail.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="main-container">
+        <h2>Colleague Overview</h2>
+        <hr />
+
+        @if (employee == null)
+        {
+            <p style="color:red;">Employee not found!</p>
+        }
+        else
+        {
+            <div class="child-container">
+                <div class="left-section">
+                    <div class="Project-status">
+                        <div class="status">
+                            <span>Project Status</span>
+                            <p></p>
+                        </div>
+                        <span>Redundancy R8.00</span>
+                    </div>
+                    <label>First Name:</label>
+                    <input type="text" value="@employee.FirstName" readonly />
+                    <label>Last Name:</label>
+                    <input type="text" value="@employee.LastName" readonly />
+                    <label>Employee Number:</label>
+                    <input type="text" value="@employee.EmployeeNumber" readonly />
+                    <label>Location:</label>
+                    <input type="text" value="@employee.Location" readonly />
+                </div>
+
+                <div class="Colleague-data">
+                    <div class="navigation-section" id="nav">
+                        <a href="#" class="nav-link" data-content="Overview">Overview</a>
+                        <a href="#" class="nav-link" data-content="AdditionalDetails">Additional<br /> Details</a>
+                        <a href="#" class="nav-link" data-content="FamilyLeave">Family Leave</a>
+                        <a href="#" class="nav-link" data-content="ColleagueStatus">Colleague <br /> Status</a>
+                        <a href="#" class="nav-link" data-content="ForSuperUser">For Super <br /> User</a>
+                        <a href="#" class="nav-link" data-content="Exception">Exception</a>
+                    </div>
+
+                    <!-- Dynamic Content will be loaded here -->
+                 
+                    <div id="dynamic-content">
+                        <div class="mid-section">
+                            <h3>Age</h3>
+                            <label>Date of Birth:</label>
+                            <input type="text" value="@employee.DateOfBirth" readonly />
+
+                            <h3>Position Details</h3>
+                            <label>Position Title:</label>
+                            <input type="text" value="@employee.PositionTitle" readonly />
+                            <label>Date of Joining:</label>
+                            <input type="text" value="@employee.DateOfJoining" readonly />
+                            <label>Contractual Pay:</label>
+                            <input type="text" value="@employee.ContractualPay" readonly />
+
+                            <h3>Package Calculation Details</h3>
+                            <label>Termination Date:</label>
+                            <input type="text" value="@employee.TerminationDate" readonly />
+                            <label>Notice Period Override</label>
+                            <div id ="np">
+                                <input type="text" /> <input type="text" /> <span>weeks</span>
+                            </div>
+                            <a href="">save changes</a>
+                            
+                        </div>
+                        <div class="right-section">
+                            <h3>Branch Details</h3>
+                            <label>Branch Number:</label>
+                            <input type="text" value="@employee.BranchNumber" readonly />
+                            <label id="hours">Contractual Hours:</label>
+                            <input type="text" value="@employee.ContractualHours" readonly />
+
+                            <label id="npw">Notice Period Worked</label>
+                            <div id="np">
+                                <input type="text" /> <input type="text" /> <span>weeks</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+
+    <!-- JavaScript for Partial View Loading -->
+    <script>
+        $(document).ready(function () {
+            $(".nav-link").click(function (e) {
+                e.preventDefault();
+                var section = $(this).data("content");
+                var employeeNumber = "@(employee != null ? employee.EmployeeNumber : "")";
+
+                $.ajax({
+                    url: "/Employee/LoadSection",
+                    type: "GET",
+                    data: { section: section, employeeNumber: employeeNumber },
+                    success: function (data) {
+                        $("#dynamic-content").html(data);
+                    },
+                    error: function () {
+                        alert("Failed to load section.");
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

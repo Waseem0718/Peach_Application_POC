@@ -1,0 +1,93 @@
+﻿@{
+    var alert = "/asset/alert.png";
+    var search_icon = "/asset/search-icon.svg";
+
+}
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Project-Tesco Redundancy Calculator</title>
+    <link rel="stylesheet" href="~/sub_css/Database.css" />
+    <script src="~/js/Incorrect.js"></script>
+</head>
+<body>
+    <div class="colleague-main">
+        <h1>Incorrect DateIncorrect Contractual Pay/Hours</h1>
+        <hr />
+
+        <div class="note-container">
+            <div class="logo1">
+                <img src=@alert alt="Menu">
+                <span>Note</span>
+
+            </div>
+            <div class="note">
+                <span>
+                    The database is a push system, therefore you should ONLY submit your request if you are PULLING branches into you.
+                    For example:
+                    <ul>
+                        <li>
+                            Current owner has left the business or taken unplanned leave
+                        </li>
+                        <li>
+                            New owner does not currently have access to the database
+                        </li>
+
+                    </ul>
+
+                    If you are currently the branch owner/consultation manager please use the 'Transfer my Branches' tile on the main landing page to push ownership.
+                </span>
+
+            </div>
+        </div>
+        <div class="colleague-container">
+            <div class="sub-container1">
+                <label>Project Name</label>
+                <select id="search-project">
+                    <option>  </option>
+                </select>
+                <label>Search by Employee Number</label>
+                <input type="text" placeholder="*******" />
+                @* <a href=""><img src=@search_icon alt="" width="25px" height="30px" /><span>Search</span></a> *@
+                <label id="yesorno">Are you pulling ownership to you?</label>
+                <div class="toggle-buttons">
+                    <button id="yesBtn" class="btn active" onclick="toggleButton('yes')">Yes</button>
+                    <button id="noBtn" class="btn" onclick="toggleButton('no')">No</button>
+                </div>
+            </div>
+            <div class="sub-container2">
+                <label>First Name</label>
+                <input type="text" />
+                <label id="data-correction">Role of New Owner</label>
+                <select id="select-data">
+                    <option> Please Select </option>
+                    <option> Approver</option>
+                    <option> Coordinator</option>
+                </select>
+                <label id="start-date">Start Date</label>
+                <input type="date" class="date-input">
+
+            </div>
+            <div class="sub-container3">
+                <label>Last Name</label>
+                <input type="text" />
+                <label id="data-correction">Type of Transfer</label>
+                <select id="select-data">
+                    <option> Please Select </option>
+                    <option> Permenant</option>
+                    <option> Temporary</option>
+                </select>
+            </div>
+        </div>
+        <hr />
+    </div>
+
+    <div class="clear-send">
+        <a href="" id="clear"><span>Clear</span></a>
+        <a href=""><span>Send</span></a>
+    </div>
+
+</body>
+</html>
+
+

@@ -1,0 +1,453 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Peach_Clone.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Peach_Clone.iam001y160.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\Employee_css\\EmployeeDetail.css",
+      "PackagePath": "staticwebassets\\Employee_css\\EmployeeDetail.css"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\Employee_css\\_AdditionalDetail.css",
+      "PackagePath": "staticwebassets\\Employee_css\\_AdditionalDetail.css"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\Employee_css\\_ColleagueStatus.css",
+      "PackagePath": "staticwebassets\\Employee_css\\_ColleagueStatus.css"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\Employee_css\\_FamilyLeave.css",
+      "PackagePath": "staticwebassets\\Employee_css\\_FamilyLeave.css"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\Employee_css\\_Overview.css",
+      "PackagePath": "staticwebassets\\Employee_css\\_Overview.css"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\asset\\Footer-img.jpg",
+      "PackagePath": "staticwebassets\\asset\\Footer-img.jpg"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\asset\\Print.png",
+      "PackagePath": "staticwebassets\\asset\\Print.png"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\asset\\Tesco_logo.png",
+      "PackagePath": "staticwebassets\\asset\\Tesco_logo.png"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\asset\\alert.png",
+      "PackagePath": "staticwebassets\\asset\\alert.png"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\asset\\lock.svg",
+      "PackagePath": "staticwebassets\\asset\\lock.svg"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\asset\\menu-icon.png",
+      "PackagePath": "staticwebassets\\asset\\menu-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\asset\\menu-icon.svg",
+      "PackagePath": "staticwebassets\\asset\\menu-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\asset\\search-icon.svg",
+      "PackagePath": "staticwebassets\\asset\\search-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\asset\\tesco1.png",
+      "PackagePath": "staticwebassets\\asset\\tesco1.png"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\css\\AddColleague.css",
+      "PackagePath": "staticwebassets\\css\\AddColleague.css"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\css\\Colleagueissue.css",
+      "PackagePath": "staticwebassets\\css\\Colleagueissue.css"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\css\\Notification.css",
+      "PackagePath": "staticwebassets\\css\\Notification.css"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\css\\Printlist.css",
+      "PackagePath": "staticwebassets\\css\\Printlist.css"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\css\\Project.css",
+      "PackagePath": "staticwebassets\\css\\Project.css"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\css\\Transfer.css",
+      "PackagePath": "staticwebassets\\css\\Transfer.css"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\css\\faq.css",
+      "PackagePath": "staticwebassets\\css\\faq.css"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\css\\faq_page.css",
+      "PackagePath": "staticwebassets\\css\\faq_page.css"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\css\\guide.css",
+      "PackagePath": "staticwebassets\\css\\guide.css"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\css\\logout.css",
+      "PackagePath": "staticwebassets\\css\\logout.css"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\css\\reconciliation.css",
+      "PackagePath": "staticwebassets\\css\\reconciliation.css"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\js\\Incorrect.js",
+      "PackagePath": "staticwebassets\\js\\Incorrect.js"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\js\\faq.js",
+      "PackagePath": "staticwebassets\\js\\faq.js"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\js\\guide.js",
+      "PackagePath": "staticwebassets\\js\\guide.js"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\js\\partial.js",
+      "PackagePath": "staticwebassets\\js\\partial.js"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\js\\reconciliation.js",
+      "PackagePath": "staticwebassets\\js\\reconciliation.js"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\js\\script.js",
+      "PackagePath": "staticwebassets\\js\\script.js"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\js\\transfer.js",
+      "PackagePath": "staticwebassets\\js\\transfer.js"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.js"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.js"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\sub_css\\Database.css",
+      "PackagePath": "staticwebassets\\sub_css\\Database.css"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\sub_css\\Gradework.css",
+      "PackagePath": "staticwebassets\\sub_css\\Gradework.css"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\sub_css\\Incorrect.css",
+      "PackagePath": "staticwebassets\\sub_css\\Incorrect.css"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\sub_css\\Leaver.css",
+      "PackagePath": "staticwebassets\\sub_css\\Leaver.css"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\sub_css\\Locked.css",
+      "PackagePath": "staticwebassets\\sub_css\\Locked.css"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\sub_css\\Payhours.css",
+      "PackagePath": "staticwebassets\\sub_css\\Payhours.css"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\sub_css\\Query.css",
+      "PackagePath": "staticwebassets\\sub_css\\Query.css"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\sub_css\\Resetting.css",
+      "PackagePath": "staticwebassets\\sub_css\\Resetting.css"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\sub_css\\SRPrate.css",
+      "PackagePath": "staticwebassets\\sub_css\\SRPrate.css"
+    },
+    {
+      "Id": "C:\\Users\\wwaseemullah\\source\\repos\\Peach_Clone\\wwwroot\\sub_css\\Storebranch.css",
+      "PackagePath": "staticwebassets\\sub_css\\Storebranch.css"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.Peach_Clone.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.Peach_Clone.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.Peach_Clone.props",
+      "PackagePath": "build\\Peach_Clone.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.Peach_Clone.props",
+      "PackagePath": "buildMultiTargeting\\Peach_Clone.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.Peach_Clone.props",
+      "PackagePath": "buildTransitive\\Peach_Clone.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

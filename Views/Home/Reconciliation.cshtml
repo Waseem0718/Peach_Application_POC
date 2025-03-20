@@ -1,0 +1,24 @@
+﻿
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Project-Tesco Redundancy Calculator</title>
+    <link rel="stylesheet" href="~/css/reconciliation.css" />
+    <script src="~/js/reconciliation.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+    <body>
+        <h1>Reconciliation</h1>
+    <div class="popup-overlay" id="popup-overlay">
+        <div class="popup">
+            <div class="popup-header">
+                <h3>⚠ No reconciliation data available</h3>
+                <button class="close-btn" onclick="closePopup()">✖</button>
+            </div>
+            <div class="popup-content">
+                There is no available reconciliation data to review for any current projects.
+            </div>
+            <button class="close-popup-btn" onclick="closePopup()">Close</button>
+        </div>
+    </div>
+    </body>
+</html>

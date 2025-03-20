@@ -1,0 +1,54 @@
+﻿@{
+    var locksvg = "/asset/lock.svg";
+    
+}
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Project-Tesco Redundancy Calculator</title>
+    <link rel="stylesheet" href="~/css/Project.css" />
+</head>
+<body>
+   
+    <div class="issue-main">
+        <h1>View Projects</h1>
+        <hr />
+        <div class="containers">
+            <div class="box1">
+               
+                <a href="@Url.Action("Incorrect", "Colleague")"><img src=@locksvg alt="lock" width="40" ><span></span></a>
+            </div>
+            <div class="box2">
+                <a href="@Url.Action("Payhours", "Colleague")"><img src=@locksvg alt="lock" width="40"><span></span></a>
+            </div>
+            <div class="box3">
+                <a href="@Url.Action("Gradework", "Colleague")"><img src=@locksvg alt="lock" width="40"><span></span></a>
+            </div>
+            <div class="box4">
+                <a href="@Url.Action("Storebranch", "Colleague")"><img src=@locksvg alt="lock" width="40"><span></span></a>
+            </div>
+            <div class="box5">
+                <a href="@Url.Action("SRPrate", "Colleague")"><img src=@locksvg alt="lock" width="40"><span></span></a>
+            </div>
+            <div class="box6">
+                <a href="@Url.Action("Locked", "Colleague")"><img src=@locksvg alt="lock" width="40"><span></span></a>
+            </div>
+            <div class="box7">
+                <a href="@Url.Action("Query", "Colleague")"><img src=@locksvg alt="lock" width="40"><span></span></a>
+            </div>
+            <div class="box8">
+                <a href="@Url.Action("Resetting", "Colleague")"><img src=@locksvg alt="lock" width="40"><span></span></a>
+            </div>
+            <div class="box9">
+                <a href="@Url.Action("Leaver", "Colleague")"><img src=@locksvg alt="lock" width="40"><span></span></a>
+            </div>
+            <div class="box10">
+                <a href="@Url.Action("Database", "Colleague")"><img src=@locksvg alt="lock" width="40"><span></span></a>
+            </div>
+        </div>
+    </div>
+    </div>
+
+</body>
+</html>

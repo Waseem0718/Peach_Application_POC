@@ -1,0 +1,263 @@
+﻿body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.colleague-main {
+    margin: 0px 120px;
+}
+hr{
+    margin:0px;
+    margin-bottom:30px
+}
+
+.note-container{
+    display:flex;
+    flex-direction:column;
+    padding:10px 20px 0px 20px;
+    background-color:lightblue;
+   
+}
+.logo1 {
+    display: flex;
+    width:20%;
+}
+.logo1 img{
+    height:40px;
+}
+.logo1 span{
+    font-size:16px;
+    align-self:center;
+    margin-left:20px;
+}
+.note{
+    color:white;
+    padding:0px 0px 20px 58px;
+    line-height:1.5;
+}
+.colleague-container{
+    display:flex;
+    
+}
+.sub-container1{
+    display:flex;
+    width:30%;
+    flex-direction:column;
+    padding:20px 0px 0px 0px;
+    gap:5px
+}
+.sub-container1 label{
+    padding:10px 0px;
+    font-weight:bold;
+}
+.sub-container1 input {
+    padding: 11px;
+    border: 2px solid #cccccc;
+    }
+    .sub-container1 a {
+        background-color: #0a55a5;
+        padding:2px;
+        width:35%;
+        margin-top:15px;
+        border-radius: 20px;
+        text-decoration:none;
+        color:white;
+    }
+    .sub-container1 img{
+        margin-left:6px;
+    }
+    .sub-container1 span {
+        position: relative;
+        bottom: 8px;
+        padding: 10px;
+        align-self: center;
+    }
+#search-project {
+    padding: 11px;
+    width: 100%;
+    border: 2px solid #cccccc;
+}    
+
+     .sub-container2 {
+            width: 30%;
+            display:flex;
+            flex-direction:column;
+            padding:0px 40px;
+            gap:2px;
+            margin-top:113px;
+      }
+.sub-container2 label {
+    padding: 10px 0px;
+    font-weight: bold;
+}
+        .sub-container2 input {
+            
+            padding: 11px;
+            border: 2px solid #cccccc;
+        }
+.sub-container3 {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 113px;
+    gap: 2px;
+}
+.sub-container3 label {
+    padding: 10px 0px;
+    font-weight: bold;
+}
+.sub-container3 input {
+    padding: 11px;
+    border: 2px solid #cccccc;
+    
+}
+.Reason{
+    margin-top:112px
+}
+.Reason label{
+        
+}
+.Reason select {
+        margin-top:12px;
+        padding: 11px;
+        width: 100%;
+        border: 2px solid #cccccc;
+    }
+.colleague-main hr{
+    margin-top: 20px;
+
+}
+.clear-send{
+    margin-left:850px;
+    justify-content:space-between;
+    
+}
+
+    .clear-send a {
+        background-color: #0a55a5;
+        padding: 8px 30px;
+        color: white;
+        text-decoration: none;
+        border-radius: 20px;
+    }
+
+    .clear-send #clear {
+        background-color: white;
+        border: 2px solid #0a55a5;
+        color: #0a55a5;
+    }
+
+
+
+    /*.project-search{
+    display:flex;
+    flex-direction:column;
+    margin-top: 25px;
+    margin-left:130px;
+}
+
+search-project {
+    margin-top: 20px;
+    padding: 11px;
+    width: 25.7%;
+    position: relative;
+    bottom: 10px;
+    border: 2px solid #cccccc;
+}    
+
+.Employee-details{
+    display:flex;
+    margin-left:130px;
+    gap: 12%;
+  
+    
+}
+.Employee-number,
+.First-name, .Last-name {
+    display: flex;
+    flex-direction: column;
+   
+}
+    .Employee-number input,
+    .First-name input, .Last-name input
+    {
+        width: 130%;
+    }
+
+button{
+    width:130px
+}
+.Branch-number{
+    display:flex;
+    flex-direction:column;
+    margin-left:472px;
+    position:relative;
+    bottom:40px;
+}
+    .Branch-number input {
+        width: 33.8%;
+    }
+    .Impact-Reason {
+        display: flex;
+        margin-left: 470px;
+        gap: 85px;
+    }
+.Impact, .Reason {
+    display: flex;
+    flex-direction: column;
+}
+.Impact input{
+    width:104%
+}
+
+.Reason{
+    margin-top:20px;
+    
+}
+
+#select-reason {
+    margin-bottom: 10px;
+    padding: 11px;
+    width: 130%;
+    position: relative;
+    bottom: 10px;
+    border: 2px solid #cccccc;
+}
+.horizon {
+    margin-left: 90px;
+    margin-right: 90px;
+    position: relative;
+    bottom: 15px;
+}
+
+.clear-send {
+    display: flex;
+    gap:10px;
+    margin-left:810px;
+    position:relative;
+    bottom:40px
+}
+.clear-send h4{
+    margin-left:30px;
+}
+.clear button {
+    background-color: white;
+    border: 2px solid #0a55a5;
+    box-shadow: 0px 0px 2px black;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+.clear h4 {
+    color: #0a55a5;
+    position:relative;
+    bottom:10px;
+}
+.clear button:hover {
+    background-color: #0a55a5;
+    box-shadow: 5px 6px 10px rgba(0, 0, 0, 0.2);
+}
+.clear h4:hover {
+    color: white;
+}
+*/

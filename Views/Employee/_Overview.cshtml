@@ -1,0 +1,42 @@
+﻿@using Peach_Clone.Models;
+<head>
+    <title>Project-Tesco Redundancy Calculator</title>
+    <link rel="stylesheet" href="~/Employee_css/_Overview.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<div class="sub-division">
+    <div class="mid-section">
+        <h3>Age</h3>
+        <label>Date of Birth:</label>
+        <input type="text" value="@Model.DateOfBirth" readonly />
+
+        <h3>Position Details</h3>
+        <label>Position Title:</label>
+        <input type="text" value="@Model.PositionTitle" readonly />
+
+        <label>Date of Joining:</label>
+        <input type="text" value="@Model.DateOfJoining" readonly />
+
+        <label>Contractual Pay:</label>
+        <input type="text" value="@Model.ContractualPay" readonly />
+        <h3>Package Calculation Details</h3>
+        <label>Termination Date:</label>
+        <input type="text" value="@Model.TerminationDate" readonly />
+        <label>Notice Period Override</label>
+        <div id="np">
+            <input type="text" /> <input type="text" /> <span>weeks</span>
+        </div>
+        <a href="">save changes</a>
+    </div>
+    <div class="right-section">
+        <h3>Branch Details</h3>
+        <label>Branch Number:</label>
+        <input type="text" value="@Model.BranchNumber" readonly />
+        <label id="hours">Contractual Hours:</label>
+        <input type="text" value="@Model.ContractualHours" readonly />
+        <label id="npw">Notice Period Worked</label>
+        <div id="np">
+            <input type="text" /> <input type="text" /> <span>weeks</span>
+        </div>
+    </div>
+</div>

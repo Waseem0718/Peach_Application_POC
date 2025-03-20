@@ -1,0 +1,70 @@
+﻿.sub-division {
+    display: flex;
+    width:100%;
+    
+}
+
+.mid-section {
+    display: flex;
+    width: 35%;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-right: 10px
+}
+
+.right-section {
+    margin-top: 15px;
+    margin-left: 100px;
+    display: flex;
+    width: 35%;
+    flex-direction: column;
+}
+
+    .right-section #hours {
+        margin-top: 250px;
+    }
+
+label {
+    padding: 10px 0px;
+    font-weight: bold;
+}
+
+input {
+    padding: 11px;
+    border: 2px solid #cccccc;
+    margin-bottom: 15px;
+}
+#np {
+    display: flex;
+    gap: 10px
+}
+
+    #np input {
+        width: 5%;
+        border: 1px solid;
+    }
+
+    #np span {
+        position: relative;
+        top: 10px;
+    }
+
+#npw {
+    margin-top: 150px;
+}
+
+    #npw input {
+        width: 5%;
+        border: 1px solid;
+    }
+
+.mid-section a {
+    width: 35%;
+    background-color: #0a55a5;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

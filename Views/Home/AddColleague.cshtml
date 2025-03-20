@@ -1,0 +1,74 @@
+﻿@{
+    var alert = "/asset/alert.png";
+    var search_icon = "/asset/search-icon.svg";
+
+}
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Project-Tesco Redundancy Calculator</title>
+    <link rel="stylesheet" href="~/css/AddColleague.css" />
+</head>
+<body>
+    <div class="colleague-main">
+        <h1>Add Colleague</h1>
+        <hr />
+
+        <div class="note-container">
+            <div class="logo1">
+                <img src=@alert alt="Menu" >
+                <span>Note</span>
+
+            </div>
+            <div class="note">
+                <span>
+                    This page can be used to add colleagues to your project.<br />
+                    if the colleague details are held in the database, the colleague data will prepopulate, if they are not in the database
+                    you will be required to enter the data
+                </span>
+
+            </div>
+        </div>
+        <div class="colleague-container">
+            <div class="sub-container1">
+                <label>Project Name</label>
+                <select id="search-project">
+                    <option>  </option>
+                </select>
+                <label>Search by Employee Number</label>
+                <input type="text" placeholder="*******" required/>
+                <a href=""><img src=@search_icon alt="" width="25px" height="30px"/><span>Search</span></a>
+            </div>
+            <div class="sub-container2">
+                <label>First Name</label>
+                <input type="text" />
+                <label>Branch Number</label>
+                <input type="text" />
+                <label>What is the changing that impacting<br />the colleague</label>
+                <input type="text" />
+            </div>
+            <div class="sub-container3">
+                <label>Last Name</label>
+                <input type="text" />
+                <div class="Reason">
+                    <label>Reason for adding colleague</label>
+                    <select >
+                        <option> Please select </option>
+                        <option> Receives an ad-hoc skill payment </option>
+                        <option> New starter </option>
+                        <option> Moved Department </option>
+                        <option>  Receives an ad-hoc night or extra night premiums </option>
+                    </select>
+                </div>    
+            </div>
+        </div>
+        <hr />
+    </div>
+    
+        <div class="clear-send">
+            <a href="" id="clear"><span>Clear</span></a>
+            <a href=""><span>Send</span></a>
+        </div>
+
+</body>
+</html>

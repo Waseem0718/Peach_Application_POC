@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <title>Peach PPE</title>
+    <link rel="stylesheet" href="~/css/style.css" />
+    <script src="~/js/site.js"></script>
+
+</head>
+<body>
+    <div class="main-page">
+        <div class="Find-employee">
+            <h1>Find Colleague</h1>
+            <form method="get" action="/Employee/FindEmployee">
+                <label for="employeeNumber">Enter Employee Number</label><br>
+                <input type="text" name="employeeNumber" id="employeeNumber" placeholder="**********"><br>
+                <button type="submit">
+                    <img src="asset/search-icon.svg" alt="Search" width="25px" height="30px">
+                    <h4>Find</h4>
+                </button>
+            </form>
+        </div>
+
+
+        <div class="container-1">
+            <div class="tile">
+                <a href="@Url.Action("Project","Home")">
+                <div class="icon"><i class="fas fa-tv"></i></div>
+               <p>View Projects</p></a>
+            </div>
+            <div class="tile">
+                <a href="@Url.Action("AddColleague", "Home")">
+                <div class="icon"><i class="fas fa-user-plus"></i></div>
+                <p>Add Colleague</p></a>
+            </div>
+            <div class="tile">
+                <a href="@Url.Action("PrintList", "Home")">
+                <div class="icon"><i class="fas fa-print"></i></div>
+                <p>Print List</p></a>
+            </div>
+            <div class="tile">
+                <a href="@Url.Action("Notification", "Home")">
+                <div class="icon"><i class="fas fa-envelope"></i></div>
+                <p>Notifications</p></a>
+            </div>
+            <div class="tile" id="sub-row">
+                <a href="@Url.Action("FAQ", "Home")">
+                <div class="icon"><i class="fas fa-question-circle"></i></div>
+                <p>FAQ & How To Guides</p></a>
+            </div>
+            <div class="tile teal" id="sub-row">
+                <a href="@Url.Action("Transfer", "Home")">
+                <div class="icon"><i class="fas fa-tools"></i></div>
+                <p>Transfer My Branches</p></a>
+            </div>
+            <div class="tile teal" id="sub-row">
+                <a href="@Url.Action("ColleagueIssue", "Home")">
+                <div class="icon"><i class="fas fa-user-circle"></i></div>
+                <p>Colleague Issues</p></a>
+            </div>
+            <div class="tile" id="sub-row">
+                <a href="@Url.Action("Reconciliation", "Home")">
+                <div class="icon"><i class="fas fa-share-square"></i></div>
+                <p>Reconciliation</p></a>
+            </div>
+        </div>
+    </div>
+    
+
+        
+ 
+</body>
+</html>

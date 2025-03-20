@@ -1,0 +1,97 @@
+﻿@{
+
+    var search_icon = "/asset/search-icon.svg";
+
+}
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Project-Tesco Redundancy Calculator</title>
+    <link rel="stylesheet" href="~/css/Transfer.css" />
+    <script src="~/js/transfer.js" defer></script>
+</head>
+    <body>
+        <div class="transfer-main">
+            <h1>Transfer My Branch</h1>
+            <hr />
+            <span>If you would like to arrange to have your branch(es) transfered to a colleage please complete the form below. It will be sent to the site administrator for approval.</span>
+            <h2>Transfer my Branch(es)</h2>
+                <div class="radio-group">
+                    <label>
+                        <input type="radio" name="transferType" value="Permanent" checked onclick="toggleTransferType()"> Permanently
+                    </label>
+                    <label>
+                        <input type="radio" name="transferType" value="Temporary" onclick="toggleTransferType()"> Temporarily
+                    </label>
+                </div>
+            <div class="detail-container">
+                <div class="sub-div1">
+                <span id="transferText">Please select the branch (or branches) that you wish to permanently transfer.</span>
+                <span>Branches:<br />0</span>
+                <span>Selected:<br />0/0</span>
+                </div>
+                <label>Search by Branch Name or Branch Number</label>
+                <div class="sub-div2">
+                    <input type="text" />
+                    <a href=""><img src=@search_icon alt="" width="25px" height="30px"><h4>Find</h4></a>
+                    <div class="sorting">
+                        <label>Sort by: </label>
+                        <select >
+                            <option> Name: A to Z</option>
+                            <option> Name: Z to A</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="checking">
+                <span>No Branch found</span>
+                <label class="custom-checkbox">
+                    <input type="checkbox" />
+                    <span class="checkmark"></span>Check/Uncheck All
+                </label>
+                <span>Please Select the Project-Coordinator that you wish to transfer your branch(es) to:</span>
+                </div>
+                 <div class="transfer-detail">
+                     <div class="child1">
+                        <label>Transfer To:</label>
+                        <select class="dropdown">
+                            <option>Please select</option>
+                            <option>Oliver Smith</option>
+                            <option>Charlotte Brown</option>
+                            <option>Harry Wilson</option>
+                            <option>Emily Taylor</option>
+                            <option>Jack Davies</option>
+                            <option>Isla Evans</option>
+                            <option>George Thomas</option>
+                            <option>Ava Johnson</option>
+                            <option>James Walker</option>
+                            <option>Sophia Robinson</option>
+                        </select>
+                        <label>Select a reason for transfer:</label>
+                        <select class="dropdown">
+                            <option>Please Select a Reason</option>
+                            <option>Sickness</option>
+                            <option>Family Leave</option>
+                            <option>Leaving Tesco</option>
+                            <option>Annual Leave</option>
+                            <option>Moving Roles</option>
+                        </select>
+                     </div>
+                    <div class="child2">
+                        <label>Date From:</label>
+                        <input type="date" class="date-input">
+
+                        <div id="dateToContainer" style="display: none;">
+                            <label>Date To:</label>
+                            <input type="date" class="date-input" action="req">
+                        </div>
+                    </div> 
+                 </div>
+            </div>
+            <div class="clear-send">
+                <a href="" id="clear"><span>Clear</span></a>
+                <a href=""><span>Send</span></a>
+            </div>
+        </div>
+        
+    </body>
+</html>

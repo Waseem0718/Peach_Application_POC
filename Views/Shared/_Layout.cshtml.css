@@ -1,0 +1,132 @@
+﻿body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.blueLine {
+    background-color: #0a55a5;
+    height: 40px;
+}
+
+.logo {
+    margin-top: 30px;
+    margin-left: 40px;
+    height: 50px;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-icon {
+    margin-top: 30px;
+    margin-right: 40px;
+    z-index: 1;
+    cursor: pointer;
+}
+
+    .menu-icon.open {
+        transform: translateX(100%);
+    }
+
+.menu-bar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 600px;
+    height: 100%;
+    background-color: #0a55a5;
+    color: white;
+    transition: transform 0.4s ease;
+    z-index: 2;
+    transform: translateX(100%); /* Hidden by default */
+}
+
+    .menu-bar.open {
+        transform: translateX(0); /* Show when open */
+    }
+
+
+
+.close-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 64px;
+    cursor: pointer;
+    position: absolute;
+    left: 500px;
+}
+
+.menu-items {
+    position: absolute;
+    top: 40px;
+    list-style: none;
+    padding: 0;
+    font-weight: 200;
+}
+
+    .menu-items li a {
+        display: block;
+        text-decoration: none; /* No underline */
+        color: white;
+        padding: 15px 20px;
+        transition: background 0.3s;
+    }
+
+    .menu-items hr {
+        margin: 10px;
+        position: relative;
+        left: 10px
+    }
+
+    .menu-items li a:hover {
+        background-color: #666;
+    }
+
+
+/* Menu Bar Active State */
+.menu-bar.active {
+    right: 0; /* Menu slides in */
+}
+
+hr {
+    margin: 40px;
+
+}
+
+.content {
+    flex: 1; /* Pushes footer to the bottom */
+}
+
+.footer {
+    flex: 1;
+    margin-top: 200px;
+    display: grid;
+    background-color: #f8f6f6;
+    grid-template-columns: repeat(2, 1fr);
+    height: 70px;
+}
+
+    .footer img {
+        width: 220px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+
+.footer-content {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    color: rgb(109, 107, 105);
+    margin-left: 140px;
+}
+
+.container-main {
+    flex: 1;
+    padding: 20px;
+}

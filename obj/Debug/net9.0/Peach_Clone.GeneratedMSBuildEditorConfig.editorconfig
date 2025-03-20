@@ -1,0 +1,157 @@
+is_global = true
+build_property.TargetFramework = net9.0
+build_property.TargetFramework = net9.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Peach_Clone
+build_property.RootNamespace = Peach_Clone
+build_property.ProjectDir = C:\Users\wwaseemullah\source\repos\Peach_Clone\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 9.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\wwaseemullah\source\repos\Peach_Clone
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 9.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/wwaseemullah/source/repos/Peach_Clone/Views/Colleague/Database.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sbGVhZ3VlXERhdGFiYXNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wwaseemullah/source/repos/Peach_Clone/Views/Colleague/Gradework.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sbGVhZ3VlXEdyYWRld29yay5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wwaseemullah/source/repos/Peach_Clone/Views/Colleague/Incorrect.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sbGVhZ3VlXEluY29ycmVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wwaseemullah/source/repos/Peach_Clone/Views/Colleague/Leaver.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sbGVhZ3VlXExlYXZlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wwaseemullah/source/repos/Peach_Clone/Views/Colleague/Locked.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sbGVhZ3VlXExvY2tlZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wwaseemullah/source/repos/Peach_Clone/Views/Colleague/Payhours.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sbGVhZ3VlXFBheWhvdXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wwaseemullah/source/repos/Peach_Clone/Views/Colleague/Query.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sbGVhZ3VlXFF1ZXJ5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wwaseemullah/source/repos/Peach_Clone/Views/Colleague/Resetting.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sbGVhZ3VlXFJlc2V0dGluZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wwaseemullah/source/repos/Peach_Clone/Views/Colleague/SRPrate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sbGVhZ3VlXFNSUHJhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wwaseemullah/source/repos/Peach_Clone/Views/Colleague/Storebranch.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sbGVhZ3VlXFN0b3JlYnJhbmNoLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wwaseemullah/source/repos/Peach_Clone/Views/Employee/FindEmployee.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRmluZEVtcGxveWVlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wwaseemullah/source/repos/Peach_Clone/Views/Employee/_AdditionalDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcX0FkZGl0aW9uYWxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wwaseemullah/source/repos/Peach_Clone/Views/Employee/_ColleagueStatus.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcX0NvbGxlYWd1ZVN0YXR1cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wwaseemullah/source/repos/Peach_Clone/Views/Employee/_Exception.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcX0V4Y2VwdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wwaseemullah/source/repos/Peach_Clone/Views/Employee/_FamilyLeave.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcX0ZhbWlseUxlYXZlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wwaseemullah/source/repos/Peach_Clone/Views/Employee/_ForSuperUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcX0ZvclN1cGVyVXNlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wwaseemullah/source/repos/Peach_Clone/Views/Employee/_Overview.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcX092ZXJ2aWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wwaseemullah/source/repos/Peach_Clone/Views/Home/AddColleague.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZGRDb2xsZWFndWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wwaseemullah/source/repos/Peach_Clone/Views/Home/ColleagueIssue.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb2xsZWFndWVJc3N1ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wwaseemullah/source/repos/Peach_Clone/Views/Home/FAQ.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGQVEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wwaseemullah/source/repos/Peach_Clone/Views/Home/FAQ_page.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGQVFfcGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wwaseemullah/source/repos/Peach_Clone/Views/Home/Guide.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxHdWlkZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wwaseemullah/source/repos/Peach_Clone/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wwaseemullah/source/repos/Peach_Clone/Views/Home/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wwaseemullah/source/repos/Peach_Clone/Views/Home/Notification.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxOb3RpZmljYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wwaseemullah/source/repos/Peach_Clone/Views/Home/PrintList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcmludExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wwaseemullah/source/repos/Peach_Clone/Views/Home/Project.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9qZWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wwaseemullah/source/repos/Peach_Clone/Views/Home/Reconciliation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZWNvbmNpbGlhdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wwaseemullah/source/repos/Peach_Clone/Views/Home/Transfer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUcmFuc2Zlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wwaseemullah/source/repos/Peach_Clone/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wwaseemullah/source/repos/Peach_Clone/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wwaseemullah/source/repos/Peach_Clone/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-tpt2ee7oi1

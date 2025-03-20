@@ -1,0 +1,133 @@
+/* _content/Peach_Clone/Views/Shared/_Layout.cshtml.rz.scp.css */
+body[b-tpt2ee7oi1] {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.blueLine[b-tpt2ee7oi1] {
+    background-color: #0a55a5;
+    height: 40px;
+}
+
+.logo[b-tpt2ee7oi1] {
+    margin-top: 30px;
+    margin-left: 40px;
+    height: 50px;
+}
+
+.logo-container[b-tpt2ee7oi1] {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-icon[b-tpt2ee7oi1] {
+    margin-top: 30px;
+    margin-right: 40px;
+    z-index: 1;
+    cursor: pointer;
+}
+
+    .menu-icon.open[b-tpt2ee7oi1] {
+        transform: translateX(100%);
+    }
+
+.menu-bar[b-tpt2ee7oi1] {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 600px;
+    height: 100%;
+    background-color: #0a55a5;
+    color: white;
+    transition: transform 0.4s ease;
+    z-index: 2;
+    transform: translateX(100%); /* Hidden by default */
+}
+
+    .menu-bar.open[b-tpt2ee7oi1] {
+        transform: translateX(0); /* Show when open */
+    }
+
+
+
+.close-btn[b-tpt2ee7oi1] {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 64px;
+    cursor: pointer;
+    position: absolute;
+    left: 500px;
+}
+
+.menu-items[b-tpt2ee7oi1] {
+    position: absolute;
+    top: 40px;
+    list-style: none;
+    padding: 0;
+    font-weight: 200;
+}
+
+    .menu-items li a[b-tpt2ee7oi1] {
+        display: block;
+        text-decoration: none; /* No underline */
+        color: white;
+        padding: 15px 20px;
+        transition: background 0.3s;
+    }
+
+    .menu-items hr[b-tpt2ee7oi1] {
+        margin: 10px;
+        position: relative;
+        left: 10px
+    }
+
+    .menu-items li a:hover[b-tpt2ee7oi1] {
+        background-color: #666;
+    }
+
+
+/* Menu Bar Active State */
+.menu-bar.active[b-tpt2ee7oi1] {
+    right: 0; /* Menu slides in */
+}
+
+hr[b-tpt2ee7oi1] {
+    margin: 40px;
+
+}
+
+.content[b-tpt2ee7oi1] {
+    flex: 1; /* Pushes footer to the bottom */
+}
+
+.footer[b-tpt2ee7oi1] {
+    flex: 1;
+    margin-top: 200px;
+    display: grid;
+    background-color: #f8f6f6;
+    grid-template-columns: repeat(2, 1fr);
+    height: 70px;
+}
+
+    .footer img[b-tpt2ee7oi1] {
+        width: 220px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+
+.footer-content[b-tpt2ee7oi1] {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    color: rgb(109, 107, 105);
+    margin-left: 140px;
+}
+
+.container-main[b-tpt2ee7oi1] {
+    flex: 1;
+    padding: 20px;
+}

@@ -1,0 +1,80 @@
+﻿.division {
+    display: flex;
+    gap:5px;
+}
+
+.col-1 {
+    display: flex;
+    flex-direction:column;
+    gap:10px
+}
+.col-2 {
+    margin-top:118px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  
+}
+select {
+    padding: 11px;
+    border: 2px solid #cccccc;
+    margin-bottom: 15px;
+}
+label {
+    padding: 10px 0px;
+    font-weight: bold;
+
+}
+
+input {
+    padding: 11px;
+    border: 2px solid #cccccc;
+    margin-bottom: 15px;
+}
+#days {
+    display: flex;
+    gap: 8px;
+}
+
+#days input {
+        width: 4%;
+        border: 1px solid;
+    }
+
+#days span {
+        position: relative;
+        top: 10px;
+    }
+.col-1 #select-holiday {
+    width: 95%;
+}
+  
+.col-2 #select-holiday {
+    width: 100%;
+}
+.col-2 label{
+    margin-top:5px;
+}
+.cmt{
+    display:flex;
+    flex-direction:column;
+}
+textarea{
+    width:200%;
+    height:100px;
+    margin-bottom:10px;
+    border:1px solid black;
+}
+.col-1 a {
+    width: 30%;
+    background-color: #0a55a5;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.col-1 a span{
+    margin-left:10px;
+}

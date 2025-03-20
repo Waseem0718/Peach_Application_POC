@@ -1,0 +1,56 @@
+﻿@{
+    var alert = "/asset/alert.png";
+    var print = "/asset/Print.png";
+   
+
+}
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Project-Tesco Redundancy Calculator</title>
+    <link rel="stylesheet" href="~/css/Printlist.css" />
+</head>
+<body>
+    <div class="print-main">
+        <h2>PrintList</h2>
+        <hr />
+        <div class="note-container">
+            <div class="logo1">
+                <img src=@alert alt="Menu">
+                <span>Note</span>
+
+            </div>
+            <div class="note">
+                <span>
+                    All items will be cleared from this area at 11.59pm GST
+                </span>
+            </div>
+        </div>
+        <div class="print-container">
+            <div class="sub-container1">
+                <label>Select Project</label>
+                <select id="search-project">
+                    <option>Select Project  </option>
+                </select>
+                <label>Select Branch</label>
+                <select id="search-project">
+                    <option> Select Branch </option>
+                </select>
+                <label>Print List Option</label>
+                <select id="search-project" >
+                    <option> Print List Option</option>
+                    <option> Bulk Print </option>
+                    <option> PDF export </option>
+                    <option> Bulk PDF </option>
+                    </select>
+                
+            </div>
+            <div class="sub-container2">
+            </div>
+        </div>
+    </div>
+    <div class="Extract">
+        <a href=""><img src=@print width="25px" height="30px" /><span>Print/Extract</span></a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,33 @@
+﻿body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.faq-main {
+    margin: 0px 120px;
+}
+.faq-container{
+    display:flex;
+    gap:20px;
+    
+}
+    .faq-container a {
+        width: 20%;
+        height: 200px;
+        background-color: #0a55a5;
+        text-decoration: none;
+        color: white;
+        
+    }
+    .faq-container h4 {
+        font-weight: bold;
+        font-size: 20px;
+        position:relative;
+        top:60px;
+        left:40px;
+    }
+#faq h4 {
+    position: relative;
+    left:80px
+}

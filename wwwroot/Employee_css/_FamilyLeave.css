@@ -1,0 +1,28 @@
+﻿.division {
+    display:flex;
+    flex-direction:column;
+}
+label {
+    padding: 10px 0px;
+    font-weight: bold;
+}
+#select-holiday {
+    width: 125%;
+}
+select {
+    padding: 11px;
+    border: 2px solid #cccccc;
+    margin-bottom: 15px;
+}
+.division a {
+    width: 30%;
+    background-color: #0a55a5;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+   

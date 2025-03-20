@@ -1,0 +1,47 @@
+﻿.division {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    padding: 10px 0px;
+    font-weight: bold;
+}
+
+#select-holiday {
+    width: 100%;
+}
+#impact{
+    display:flex;
+    gap:10px;
+}
+    #impact a {
+        color: #0a55a5;
+        background: white;
+        text-decoration: underline;
+        padding: 10px;
+        border: 1px solid #0a55a5;
+        border-radius: 0px;
+        transition: transform 0.2s
+    }
+        #impact a:hover {
+            color: white;
+            background: #0a55a5;
+        
+        }
+select {
+    padding: 11px;
+    border: 2px solid #cccccc;
+    margin-bottom: 15px;
+}
+
+.division a {
+    width: 30%;
+    background-color: #0a55a5;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
