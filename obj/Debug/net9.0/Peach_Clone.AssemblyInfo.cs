@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Peach_Clone")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5224f22750cd79a793eda40104d7de89aceb9283")]
 [assembly: System.Reflection.AssemblyProductAttribute("Peach_Clone")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Peach_Clone")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
